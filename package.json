@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx && cp *.png dist/ && cp *.jpg dist/"
+    "build": "mdx-deck build deck.mdx && cp *.png dist/"
   },
   "author": "Benjamin Lannon <benjamin@lannonbr.com>",
   "license": "MIT",
