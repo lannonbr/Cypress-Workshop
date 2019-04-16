@@ -1,0 +1,16 @@
+{
+  "name": "cypress_syrjs_talk",
+  "version": "1.0.0",
+  "description": "MDX Slides for Cypress Talk at Syracuse JS Meetup in April 2019",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx && cp *.png dist/ && cp *.jpg dist/"
+  },
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.8.2"
+  },
+  "dependencies": {}
+}
